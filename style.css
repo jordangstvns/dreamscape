@@ -184,6 +184,46 @@ h4 {
   animation: scale 0.3s ease-out;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    display: none;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  h4 {
+    font-size: .75rem;
+    top: 5px;
+    margin: 0;
+  }
+
+  .btncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+  }
+
+  p {
+    display: none;
+  }
+
+
+
+}
+
 @keyframes scale {
   to {
     transform: translate(-50%, -50%) scale(3);
